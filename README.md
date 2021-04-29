@@ -13,15 +13,12 @@
 10. Score Board is displayed on the screen. <br>
 
 
-
-
-
-Main.cpp is a main file that contains codes of building a game menu.
-Game.h is header file for Game.cpp
-Game.cpp is a file that contains codes of initializing and drawing the game window, drawing of snake’s body, printing a score at the bottom of the window, positioning a new fruit in the game window, positioning of the poison, setting game over situations.
-Screen.h is a file that contains codes of additions to Screen.cpp file with the code of exception.
-Screen.cpp is a file that contains codes of screen exception for each situation. Helps to change color.
-Makefile It is basically used to create .cpp file and .h file for each class/functions and its functionalities and later link them all through a Makefile command .
+**Main.cpp**: main file that contains codes of building a game menu.<br>
+**Game.h**: header file for Game.cpp<br>
+**Game.cpp**: file that contains codes of initializing and drawing the game window, drawing of snake’s body, printing a score at the bottom of the window, positioning a new fruit in the game window, positioning of the poison, setting game over situations.<br>
+**Screen.h**: file that contains codes of additions to Screen.cpp file with the code of exception.<br>
+**Screen.cpp**: file that contains codes of screen exception for each situation. Helps to change color.<br>
+**Makefile**<br>
 
 ## Technologies
  Ncurses Library functions to complete a program that displays a two-dimensional array of Snake Map as a Game screen. Ncurses functions included in this game: <br>
@@ -33,13 +30,13 @@ Makefile It is basically used to create .cpp file and .h file for each class/fun
 •	New window disappears <br>
 
 
-##User Manual
+## User Manual
 1.	open terminal and go to the directory where the code is saved at.<br>
 2.	In that directory run the command make. <br>
 3.	It then will print out an executable command. Copy and run that command.<br>
 4.	Enjoy playing the game. <br>
 
 
-##How to compile program and run
+## How to compile program and run
 1.Installing ncurses on Debian/Ubuntu Linux<br>
    sudo apt-get install libncurses5-dev libncursesw5-dev
