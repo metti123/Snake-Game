@@ -31,7 +31,7 @@
 **Screen.cpp**: file that contains codes of screen exception for each situation. Helps to change color.<br>
 **Makefile**<br>
 
-## functions and classes used for this game are follow:
+## Functions and classes used 
 **main.cpp**<br>
 •	_IsUserReady()_: waits for confirmation from the user whether they want to play the game or not. If ‘y’ calls the playGame() function to start the game.<br>
 •	_AskUserToPlay_(): after the game is over, it asks the user whether to continue the game or not and returns the answer.<br>
