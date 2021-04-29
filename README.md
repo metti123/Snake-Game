@@ -14,13 +14,13 @@
 
 ## Technologies
 1. **Ncurses Library**: displaying Snake Map on the game screen . Ncurses functions included in this game: <br>
-•	Start and exit Ncurses mode <br>
-•	Color attribute settings <br>
-•	Screen update <br>
-•	Create a new window (window data type) <br>
-•	Window string output <br>
-•	New window disappears <br>
-2.**unistd header**: delaying time when necessary
+                        •	Start and exit Ncurses mode <br>
+                        •	Color attribute settings <br>
+                        •	Screen update <br>
+                        •	Create a new window (window data type) <br>
+                        •	Window string output <br>
+                        •	New window disappears <br>
+2. **unistd header**: delaying time when necessary
 
 ## Code 
 
@@ -59,6 +59,8 @@
 2.	In that directory run the command make. <br>
 3.	It then will print out an executable command. Copy and run that command.<br>
 4.	Enjoy playing the game. <br>
+<img width="464" alt="Screenshot 2021-04-30 005853" src="https://user-images.githubusercontent.com/54922683/116581444-4b8d6400-a94f-11eb-8f57-fdcdb54abd09.png">
+
 
 
 ## How to compile program and run
